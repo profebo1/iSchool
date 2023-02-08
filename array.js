@@ -13,3 +13,5 @@
 // nums.reduce();
 
 const names = ["Kweku", "Kwame", "Ama", "Abena", "Nana", "Peter", "John"];
+
+names.join(" * ");
