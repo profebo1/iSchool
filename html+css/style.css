@@ -1,0 +1,204 @@
+body {
+  background-color: bisque !important;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a {
+  color: blue;
+}
+
+.navbar {
+  width: 100%;
+  height: 85px;
+  background-color: black;
+  display: flex;
+  /* float: left; */
+}
+
+.navbar ul {
+  display: flex;
+  float: right !important;
+  margin-right: 10px;
+}
+
+.navbar ul li {
+  list-style: none;
+  padding: 10px 20px 20px 20px;
+  /* background-color: black; */
+}
+
+.navbar ul li:hover {
+  background-color: darkorange;
+  color: red !important;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  font-weight: bold;
+  color: aliceblue !important;
+}
+
+.navbar ul li a:hover {
+  /* color: red !important; */
+}
+
+.navbar h2 {
+  color: aqua;
+}
+
+.navbar h2 span {
+  color: red;
+  font-family: "Gill Sans";
+  font-size: 30;
+}
+
+.nav-elements {
+  margin-left: 50%;
+}
+
+.logo {
+  margin: auto;
+  display: flex;
+  align-content: center;
+}
+
+.logo i {
+  color: white !important;
+  font-size: 50px !important;
+}
+
+.section {
+  padding: 20px 0px;
+  background-color: white;
+}
+
+.about-us {
+  padding: 15px 0px;
+  color: black;
+}
+
+.breadcrump {
+  background-image: url("bcr_img.jpg");
+  width: 100%;
+  height: 200px;
+  background-size: cover;
+  background-position: center;
+}
+
+.br-color-bk {
+  background-color: black;
+  width: 100%;
+  height: 200px;
+  opacity: 70%;
+}
+
+.breadcrump h2 {
+  color: white;
+  font-size: 40px;
+  /* z-index: 99999; */
+}
+
+.breadcrump .details {
+  /* display: flex; */
+  padding: 20px 100px;
+}
+
+.breadcrump .details p {
+  color: white;
+  font-size: 18px;
+}
+
+.breadcrump .details p a {
+  color: yellow;
+  text-decoration: none;
+}
+
+.about-us {
+  margin: 0px 50px;
+  /* padding: -20px 0px; */
+}
+.about-us .row {
+  display: flex;
+  height: 300px;
+}
+
+.column-0 {
+  width: 100%;
+}
+
+.game-full {
+  background-color: lightgray;
+}
+
+.column-1 {
+  width: 40%;
+  /* background-color: red; */
+}
+
+.column-2 {
+  width: 60%;
+  /* background-color: green; */
+}
+
+.about-us .column-1 {
+  text-align: center;
+}
+
+.about-us .column-1 img {
+  width: 50%;
+}
+
+.game .row .column-0 {
+  display: flex;
+  height: 300px;
+}
+
+#a-tag {
+  margin-left: -100px;
+}
+
+.column-25 {
+  width: 25%;
+  padding-top: 10px;
+  margin: 1rem;
+  border-radius: 50%;
+  height: 100%;
+  background-image: url("honey-img.jpg");
+  background-position: center;
+  background-size: cover;
+  z-index: 9999;
+}
+
+.column-25 a {
+  font-weight: bold;
+  color: blue;
+  /* z-index: -99; */
+  opacity: 0%;
+  /* visibility: collapse; */
+}
+
+.column-25 a:hover {
+  opacity: 100%;
+}
+
+.column-25 p:hover {
+  /* !important; */
+}
+
+@media (max-width: 700px) {
+  .column-25 {
+    width: 25%;
+    padding-top: 10px;
+    margin: 1rem;
+
+    border-radius: 100%;
+    height: 40%;
+  }
+  .game-full {
+    height: 170px;
+  }
+
+  .nav-elements {
+    margin-left: 8%;
+  }
+}

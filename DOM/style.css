@@ -1,0 +1,17 @@
+#main-el {
+  background-color: gray;
+  height: 300px;
+  width: 70%;
+  margin: auto;
+  text-align: center;
+  padding: 2px 2px 2px 2px;
+}
+
+#info {
+  font-size: 20px;
+  color: yellow;
+}
+
+#addNum {
+  font-size: 20px;
+}
